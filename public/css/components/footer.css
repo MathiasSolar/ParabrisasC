@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--primary-color);
+
+    color: #FFF;
+    text-align: center;
+    /* Title */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 1920px;
+    height: 500px;
+    flex-shrink: 0;
+}

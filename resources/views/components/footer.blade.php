@@ -15,6 +15,19 @@
         <div>
             <span class="normal-text"> Sabado de 10:00 a 13:00</span>
         </div>
+        <hr>
+        <br>
+        <div class="contact">
+            <span class=title>Contacto</span>
+            <div class="contact_img">
+            <img src="{{asset('img/Header/whatsapp.png')}}" alt="Whatsapp">
+            <span class="normal-text">+56 9 57851763</span>
+            <img src="{{asset('img/Header/Telefono.png')}}" alt="Phone">
+            <span class="normal-text">67-2529002</span>
+            <img src="{{asset('img/Header/Email.png')}}" alt="Email">
+            <span class="normal-text">alvaroarteaga23@yahoo.es</span>
+            </div>
+        </div>
     </section>
 
 </footer>

@@ -10,13 +10,33 @@
 }
 
 .footer_image{
-    width: 60rem;
-    flex-shrink: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
 }
 
 .footer_schedule{
     color: var(--text-secondary-color);
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.footer_schedule .footer_schedule-item .title{
+
+.footer_schedule .footer_schedule-item .title {
+    color: var(--text-secondary-color);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer_schedule .normal-text{
+    color: var(--text-secondary-color);
+
+}
+
+.footer_schedule .contact .title{
     color: var(--text-secondary-color);
 }

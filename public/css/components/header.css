@@ -1,0 +1,11 @@
+header.header{
+    height: 140px;
+
+}
+header.header section.header__contact{
+    background-color: var(--primary-color);
+    height: 5rem;
+}
+header.header section.header__contact .header__contact-item{
+    color: var(--text-secondary-color);
+}

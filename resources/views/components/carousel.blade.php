@@ -8,7 +8,7 @@
         <img src="{{asset('img/carousel/Carousel1.png')}}" alt="Taller">
       </div>
       <div class="carousel-item">
-        <img src="{{asset('img/carousel/Carousel1.png')}}" alt="Taller">
+        <img src="{{asset('img/carousel/Azir.jpg')}}" alt="Taller">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">

@@ -1,35 +1,35 @@
 
-.footer {
+.footer {                                          /*Principal */
     background-color: var(--primary-color);
     display: flex; 
     height: 50rem;
 }
 
-.footer_image, .footer_schedule {
+.footer_image, .footer_schedule {       
     flex: 1; 
 }
 
-.footer_image{
+.footer_image{                   /* Imagen de auto  */
     display: flex;
     justify-content: center; 
     align-items: center; 
     
 }
 
-.footer_schedule{
+.footer_schedule{                       /*El Horario */       
     color: var(--text-secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.footer_schedule .footer_schedule__separator{
+.footer_schedule .footer_schedule__separator{        /*Linea separatoria */
     content: '';
     width: 500px;
     height: .2rem;
     background-color: var(--text-secondary-color);
     margin: 3rem 3rem 3rem 0;
 }
-.footer_schedule .footer_schedule-item .title {
+.footer_schedule .footer_schedule-item .title {       
     color: var(--text-secondary-color);
     font-size: 40px;
     font-style: normal;
@@ -44,4 +44,9 @@
 
 .footer_schedule .contact .title{
     color: var(--text-secondary-color);
+}
+
+.footer_schedule .contact .contact_img .normal-text{
+    margin-right: 2rem;
+    
 }

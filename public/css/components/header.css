@@ -1,35 +1,61 @@
 header.header{
-    height: 140px;
+    height: 14rem;
 }
 header.header .header__contact{
+    align-items: center;
     background-color: var(--primary-color);
-    height: 5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 3rem;
-    flex-wrap: wrap;
-}
-header.header .header__contact .header__contact-item{
-    display: flex;
+    height: 5rem;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
 }
 header.header .header__contact .header__contact-item{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+header.header .header__contact .header__contact-item .normal-text{
     color: var(--text-secondary-color);
+    font-size: 1.8rem;
+}
+header.header .header__contact .header__contact-item img{
+    width: 3rem;
 }
 header.header .header__main{
-    background-color: cadetblue;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    background-color: var(--background-primary-color);
+    display: flex;
+    height: 9rem;
+    justify-content: space-between;
     padding: 0 var(--first-page-margin);
+    flex-wrap: wrap;
 }
 header.header .header__main .header__logo{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     gap: 3rem;
+    justify-content: center;
+}
+header.header .header__main .header__logo h1{
+    
+}
+.header.header .header__main .header__nav{
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    height: 100%;
+    justify-content: center;
+}
+header.header .header__main .header__nav a{
+    color: var(--text-primary-color);
+    cursor: pointer;
+    font-size: 2.4rem;
+    text-decoration: none;
+    transition: var(--transition) all;
+}
+header.header .header__main .header__nav a:hover{
+    color: var(--primary-color);
 }

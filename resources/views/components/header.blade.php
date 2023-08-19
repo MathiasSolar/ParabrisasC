@@ -16,7 +16,7 @@
     <section class="header__main">
         <div class="header__logo">
             <img src="{{asset('img/Header/AutoAzul.png')}}" alt="Logo">
-            <h1>Coyahique Parabrisas</h1>
+            <h1 class="title">Coyahique Parabrisas</h1>
         </div>
         <nav class="header__nav">
             <a href="#">Nosotros</a>

@@ -6,4 +6,5 @@
     --text-secondary-color: #FFFFFF;
     --first-page-margin: 80px;
     --secondary-page-margin: 150px;
+    --transition: .3s ease;
 }

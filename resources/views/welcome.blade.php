@@ -3,5 +3,5 @@
 @section('title','Parabrisas')
 
 @section('content')
-    <h1>Hola</h1>
+    @include('components.carousel')
 @endsection

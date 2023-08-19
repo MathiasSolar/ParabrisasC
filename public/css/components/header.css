@@ -31,7 +31,6 @@ header.header .header__main{
     height: 9rem;
     justify-content: space-between;
     padding: 0 var(--first-page-margin);
-    flex-wrap: wrap;
 }
 header.header .header__main .header__logo{
     align-items: center;

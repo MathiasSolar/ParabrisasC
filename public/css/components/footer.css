@@ -1,16 +1,19 @@
-footer {
+
+.footer {
     background-color: var(--primary-color);
+    display: flex; 
+}
 
-    color: #FFF;
-    text-align: center;
-    /* Title */
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.footer_image, .footer_schedule {
+    flex: 1; 
+}
 
-    width: 1920px;
-    height: 500px;
-    flex-shrink: 0;
+.footer_image{
+    width: 600px;
+height: 346.809px;
+flex-shrink: 0;
+}
+
+.footer_schedule{
+    color: var(--text-secondary-color);
 }

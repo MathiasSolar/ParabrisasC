@@ -6,7 +6,7 @@
     </section>
 
     <section class="footer_schedule">
-        <div class="footer_schedule-itemn">
+        <div class="footer_schedule-item">
             <span class=title>Horarios</span>
         </div>
         <div>

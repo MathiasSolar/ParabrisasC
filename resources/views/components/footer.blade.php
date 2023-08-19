@@ -15,8 +15,7 @@
         <div>
             <span class="normal-text"> Sabado de 10:00 a 13:00</span>
         </div>
-        <hr>
-        <br>
+        <div class="footer_schedule__separator"></div>
         <div class="contact">
             <span class=title>Contacto</span>
             <div class="contact_img">

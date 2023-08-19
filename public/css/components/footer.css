@@ -18,12 +18,17 @@
 
 .footer_schedule{
     color: var(--text-secondary-color);
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.footer_schedule .footer_schedule__separator{
+    content: '';
+    width: 500px;
+    height: .2rem;
+    background-color: var(--text-secondary-color);
+    margin: 3rem 3rem 3rem 0;
+}
 .footer_schedule .footer_schedule-item .title {
     color: var(--text-secondary-color);
     font-size: 40px;

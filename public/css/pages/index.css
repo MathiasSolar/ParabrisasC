@@ -1,0 +1,9 @@
+.index-page__aboutus{
+    margin-top: 8rem;
+    padding: 0 var(--secondary-page-margin) ;
+    text-align: center;
+
+}
+.index-page__aboutus .title{
+    margin-bottom: 2.5rem;
+}

@@ -1,15 +1,15 @@
 <header class="header">
     <section class="header__contact">
         <div class="header__contact-item">
-            <img src="" alt="Whatsapp">
+            <img src="{{asset('img/Header/whatsapp.png')}}" alt="Whatsapp">
             <span>+56 9 57851763</span>
         </div>
         <div class="header__contact-item">
-            <img src="" alt="Phone">
+            <img src="{{asset('img/Header/Telefono.png')}}" alt="Phone">
             <span>67-2529002</span>
         </div>
         <div class="header__contact-item">
-            <img src="" alt="Email">
+            <img src="{{asset('img/Header/Email.png')}}" alt="Email">
             <span>alvaroarteaga23@yahoo.es</span>
         </div>
     </section>

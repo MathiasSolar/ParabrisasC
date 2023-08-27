@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','Parabrisas')
+@section('title','ParabrisasCoyhaique')
 
 @section('content')
     @include('components.carousel')

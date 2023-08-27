@@ -4,7 +4,38 @@
     --background-secondary-color: #E6E9EC;
     --text-primary-color: #000000;
     --text-secondary-color: #FFFFFF;
-    --first-page-margin: 80px;
-    --secondary-page-margin: 230px;
+    --first-page-margin: 8rem;
+    --secondary-page-margin: 23rem;
     --transition: .3s ease;
+}
+
+@media screen and (max-width:1600px) {
+    :root{
+        --first-page-margin: 6rem;
+        --secondary-page-margin: 16rem
+    }
+}
+@media screen and (max-width:1400px) {
+    :root{
+        --first-page-margin: 4rem;
+        --secondary-page-margin: 12rem
+    }
+}
+@media screen and (max-width:1400px) {
+    :root{
+        --first-page-margin: 4rem;
+        --secondary-page-margin: 10rem
+    }
+}
+@media screen and (max-width:1000px) {
+    :root{
+        --first-page-margin: 2rem;
+        --secondary-page-margin: 5rem
+    }
+}
+@media screen and (max-width:600px) {
+    :root{
+        --first-page-margin: .5rem;
+        --secondary-page-margin: 1rem
+    }
 }

@@ -7,3 +7,21 @@
 .index-page__aboutus .title{
     margin-bottom: 2.5rem;
 }
+
+
+.location {
+    background-color: #E6E9EC;
+    display: flex;
+}
+
+.location_item{
+    width: 50%;
+}
+
+.location_item2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+
+}

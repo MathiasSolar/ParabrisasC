@@ -1,5 +1,5 @@
 .index-page__aboutus{
-    margin-top: 8rem;
+    margin-top: var(--margin-section);
     padding: 0 var(--secondary-page-margin) ;
     text-align: center;
 
@@ -9,7 +9,7 @@
 }
 
 .index-page__services{
-    margin: 0 var(--secondary-page-margin) ;
+    margin: var(--margin-section) var(--secondary-page-margin) 0 var(--secondary-page-margin);
 }
 .index-page__services .title{
     text-align: center;

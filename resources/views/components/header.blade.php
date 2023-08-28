@@ -25,5 +25,17 @@
             <a href="#">Galeria</a>
             <a href="#">Horarios</a>
         </nav>
+        <nav class="header__nav-responsive">
+            <a href="#" class="normal-text">Nosotros</a>
+            <a href="#" class="normal-text">Servicios</a>
+            <a href="#" class="normal-text">Ubicacion</a>
+            <a href="#" class="normal-text">Galeria</a>
+            <a href="#" class="normal-text">Horarios</a>
+        </nav>
+        <button class="hamburger hamburger--collapse" type="button" id="headerhamburgerButton">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
     </section>
 </header>

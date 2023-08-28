@@ -7,6 +7,7 @@
     --first-page-margin: 8rem;
     --secondary-page-margin: 23rem;
     --transition: .3s ease;
+    --margin-section: 8rem;
 }
 
 @media screen and (max-width:1600px) {

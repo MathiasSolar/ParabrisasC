@@ -1,5 +1,7 @@
 header.header{
     height: 14rem;
+    position: relative;
+    /* position: fixed; */
 }
 header.header .header__contact{
     align-items: center;
@@ -42,11 +44,15 @@ header.header .header__main .header__logo h1{
     
 }
 .header.header .header__main .header__nav{
-    align-items: center;
     display: flex;
+    align-items: center;
+    
     gap: 3rem;
     height: 100%;
     justify-content: center;
+}
+.header.header .header__main .header__nav-responsive{
+    display: none;
 }
 header.header .header__main .header__nav a{
     color: var(--text-primary-color);
@@ -57,4 +63,41 @@ header.header .header__main .header__nav a{
 }
 header.header .header__main .header__nav a:hover{
     color: var(--primary-color);
+}
+@media screen and (max-width:1350px){
+    .header.header .header__main .header__nav{
+        display: none;
+    }
+    .header.header .header__main .header__nav-responsive{
+        display: flex;
+        position: fixed;
+        background-color: red;
+        right: 0;
+        top: 14rem;
+        z-index: 1000;
+        width: 30vw;
+        height: calc(100vh - 14rem);
+        background: var(--background-primary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 4rem;
+        gap: 2rem;
+    }
+    .header.header .header__main .header__nav-responsive a {
+        text-decoration: none;
+        width: 80%;
+        text-align: center;
+        -webkit-transition: var(--transition) all;
+        -moz-transition: var(--transition) all;
+        -ms-transition: var(--transition) all;
+        -o-transition: var(--transition) all;
+        transition: var(--transition) all;
+}
+    .header.header .header__main .header__nav-responsive a:hover {
+        text-decoration: none;
+        color: var(--text-secondary-color);
+        background-color: var(--primary-color);
+    }
 }

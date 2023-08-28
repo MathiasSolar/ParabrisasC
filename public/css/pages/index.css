@@ -61,13 +61,18 @@
     }
 }
 
+
+
+
 .location {
     background-color: #E6E9EC;
     display: flex;
+    gap: 3rem;
 }
 
 .location_item{
     width: 50%;
+    display: flex;
 }
 
 .location_item2{

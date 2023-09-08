@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section class="galery">
+    <section class="galery" id="Galeria">
         <div class="galery_item">
             <h1 class="title"> Galeria</h1>
             

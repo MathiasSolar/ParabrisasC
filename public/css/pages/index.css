@@ -82,3 +82,28 @@
     justify-content: center; 
 
 }
+
+
+
+
+
+.galery {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: center; /* Centrar el texto horizontalmente */
+    
+}
+
+.galery_photo1 img {
+    margin: 10px;
+    width: 35rem; /* Establece el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto original ajustando el alto automáticamente */
+}
+.galery_photo2 img {
+    margin: 10px;
+    width: 35rem; /* Establece el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto original ajustando el alto automáticamente */
+}

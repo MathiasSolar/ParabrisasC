@@ -67,5 +67,23 @@
             <p class="normal-text">Coyhaique,Region de Aysen</p>
         </div>
     </section>
+
+    <section class="galery">
+        <div class="galery_item">
+            <h1 class="title"> Galeria</h1>
+            
+        </div>
+        <div class="galery_photo1">
+            <img src="{{asset('img/Galery/Galery1.png')}}" alt="Galeria 1">
+            <img src="{{asset('img/Galery/Galery2.png')}}" alt="Galeria 2">
+            <img src="{{asset('img/Galery/Galery3.png')}}" alt="Galeria 3">
+        </div>
+        <div class="galery_photo2">
+        <img src="{{asset('img/Galery/Alvarolaburando.jpeg')}}" alt="Galeria 4">
+        <img src="{{asset('img/Galery/Alvarolaburando2.jpeg')}}" alt="Galeria 5">
+        <img src="{{asset('img/Galery/Alvarolaburando2.jpeg')}}" alt="Galeria 5">
+        </div>
+
+    </section>
     @include('components.brands')
 @endsection

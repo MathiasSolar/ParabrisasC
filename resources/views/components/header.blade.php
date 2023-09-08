@@ -19,23 +19,24 @@
             <h1 class="title">Coyahique Parabrisas</h1>
         </div>
         <nav class="header__nav">
-            <a href="#">Nosotros</a>
-            <a href="#">Servicios</a>
-            <a href="#">Ubicacion</a>
-            <a href="#">Galeria</a>
-            <a href="#">Horarios</a>
+            <a href="#Nosotros" >Nosotros</a>
+            <a href="#Servicios" >Servicios</a>
+            <a href="#Ubicacion" >Ubicacion</a>
+            <a href="#Galeria" >Galeria</a>
+            <a href="#Horarios" >Horarios</a>
         </nav>
         <nav class="header__nav-responsive">
-            <a href="#" class="normal-text">Nosotros</a>
-            <a href="#" class="normal-text">Servicios</a>
-            <a href="#" class="normal-text">Ubicacion</a>
-            <a href="#" class="normal-text">Galeria</a>
-            <a href="#" class="normal-text">Horarios</a>
+            <a href="#Nosotros" class="normal-text" >Nosotros</a>
+            <a href="#Servicios" class="normal-text" >Servicios</a>
+            <a href="#Ubicacion" class="normal-text" >Ubicacion</a>
+            <a href="#Galeria" class="normal-text" >Galeria</a>
+            <a href="#Horarios" class="normal-text" >Horarios</a>
         </nav>
+        <!-- <div class="header__nav-responsive-shadow"></div>
         <button class="hamburger hamburger--collapse" type="button" id="headerhamburgerButton">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
-        </button>
+        </button> -->
     </section>
 </header>

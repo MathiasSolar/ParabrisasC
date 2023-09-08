@@ -1,0 +1,39 @@
+.brands-component{
+    background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 250px;
+	margin: auto;
+    display: flex;
+    align-items: center;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+}
+
+.brands-component .brands-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.brands-component .brands-track .brands__slide{
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    /* height: 100px;
+    width: 250px; */
+}
+.brands-component .brands-track .brands__slide img{
+    width: 15rem;
+    object-fit: contain;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+/* .brands-component img {
+    width: 15rem;
+    object-fit: contain;
+} */
+

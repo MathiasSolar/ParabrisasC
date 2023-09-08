@@ -5,7 +5,7 @@
         </div>
     </section>
 
-    <section class="footer_schedule">
+    <section class="footer_schedule" id="Horarios">
         <div class="footer_schedule-item">
             <span class=title>Horarios</span>
         </div>

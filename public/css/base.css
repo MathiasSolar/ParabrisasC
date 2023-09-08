@@ -37,3 +37,14 @@ body{
     color: var(--text-primary-color);
     text-decoration: none;
 }
+@media screen and (max-width:720px){
+    .title{
+        font-size: 3rem;
+    }
+    .subtitle{
+        font-size: 2.5rem;
+    }
+    .normal-text{
+        font-size: 1.8rem;
+    }
+}

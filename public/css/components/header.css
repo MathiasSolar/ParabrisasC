@@ -1,8 +1,7 @@
 header.header{
     height: 14rem;
-    position: relative;
-    /* position: fixed; */
 }
+
 header.header .header__contact{
     align-items: center;
     background-color: var(--primary-color);
@@ -31,6 +30,7 @@ header.header .header__main{
     background-color: var(--background-primary-color);
     display: flex;
     height: 9rem;
+    z-index: 1000;
     justify-content: space-between;
     padding: 0 var(--first-page-margin);
 }
@@ -39,9 +39,6 @@ header.header .header__main .header__logo{
     display: flex;
     gap: 3rem;
     justify-content: center;
-}
-header.header .header__main .header__logo h1{
-    
 }
 .header.header .header__main .header__nav{
     display: flex;
@@ -64,40 +61,116 @@ header.header .header__main .header__nav a{
 header.header .header__main .header__nav a:hover{
     color: var(--primary-color);
 }
+header.header .header__main #headerhamburgerButton{
+    display: none;
+}
+.header.header .header__main .header__nav-responsive{
+    display: none;
+    position: fixed;
+    background-color: red;
+    right: -100%;
+    top: 14rem;
+    z-index: 1000;
+    width: 30vw;
+    min-width: 300px;
+    height: calc(100vh - 14rem);
+    background: var(--background-primary-color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 4rem;
+    gap: 2rem;
+    -webkit-transition: var(--transition) right;
+    -moz-transition: var(--transition) right;
+    -ms-transition: var(--transition) right;
+    -o-transition: var(--transition) right;
+    transition: var(--transition) right;
+}
+.header.header .header__main .header__nav-responsive.is-active{
+    right: 0;
+}
+.header.header .header__main .header__nav-responsive-shadow{
+    display: none;
+    width: 100%;
+    height: calc(100vh - 14rem);
+    background: #00000071;
+    position: fixed;
+    top: 14rem;
+    z-index: 990;
+    left: 0;
+}
+.header.header .header__main .header__nav-responsive-shadow.is-active{
+    display: inline-block;
+}
+.header.header .header__main .header__nav-responsive a {
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+    -webkit-transition: var(--transition) all;
+    -moz-transition: var(--transition) all;
+    -ms-transition: var(--transition) all;
+    -o-transition: var(--transition) all;
+    transition: var(--transition) all;
+}
+.header.header .header__main .header__nav-responsive a:hover {
+    color: var(--text-secondary-color);
+    background-color: var(--primary-color);
+}
+.header.header .header__main .header__nav-responsive a.active {
+    color: var(--text-secondary-color);
+    background-color: var(--primary-color);
+}
 @media screen and (max-width:1350px){
     .header.header .header__main .header__nav{
         display: none;
     }
     .header.header .header__main .header__nav-responsive{
         display: flex;
-        position: fixed;
-        background-color: red;
-        right: 0;
-        top: 14rem;
-        z-index: 1000;
-        width: 30vw;
-        height: calc(100vh - 14rem);
-        background: var(--background-primary-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding-top: 4rem;
-        gap: 2rem;
     }
-    .header.header .header__main .header__nav-responsive a {
-        text-decoration: none;
-        width: 80%;
-        text-align: center;
-        -webkit-transition: var(--transition) all;
-        -moz-transition: var(--transition) all;
-        -ms-transition: var(--transition) all;
-        -o-transition: var(--transition) all;
-        transition: var(--transition) all;
+    .header.header .header__main #headerhamburgerButton{
+        display: inline-block;
+    }
 }
-    .header.header .header__main .header__nav-responsive a:hover {
-        text-decoration: none;
-        color: var(--text-secondary-color);
-        background-color: var(--primary-color);
+@media screen and (max-width:720px){
+    header.header .header__contact{
+        display: none;
     }
+    header.header{
+        height: 9rem;
+    }
+    header.header .header__main{
+        position: fixed;
+        width: 100%;
+    }
+    .header.header .header__main .header__nav-responsive-shadow{
+        top: 9rem;
+        height: calc(100vh - 9rem);
+    }
+    .header.header .header__main .header__nav-responsive{
+        top: 9rem;
+        height: calc(100vh - 9rem);
+    }
+    header.header .header__main .header__logo img{
+        margin-left: 1rem;
+        width: 5rem;
+    }
+    header.header .header__main .header__logo h1{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width:450px){
+    header.header .header__main .header__logo img{
+        display: none;
+    }
+    header.header .header__main .header__logo h1{
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+    header.header .header__main #headerhamburgerButton{
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+}
 }
